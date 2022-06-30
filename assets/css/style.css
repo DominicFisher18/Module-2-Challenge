@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .LastName {
+    color: silver;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.Image1 {
+    height: 600px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("https://image.shutterstock.com/image-vector/night-city-background-260nw-378064603.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.floatleft {
+    float: left;
+    margin-left: 25px;
+}
+.body {
+    width: 80%;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.aboutme {
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.aboutme img {
+    max-height: 200px;
+}
+
+.aboutme h1 {
+    margin-bottom: 20px;
+}
