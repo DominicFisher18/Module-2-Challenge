@@ -1,1 +1,1 @@
-# Module-2-Challenge Hello
+Hello!  The task this assignment was to create a portfolio, where I can give a description of myself, as well as my work and ways to contact me.  I needed to incorporate skills such as redirecting links, flexboxes, CSS variables, and more.  I went for a darker theme, with the city at night and the color scheme, as I figured it would be different from what most people do.
