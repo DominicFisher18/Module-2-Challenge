@@ -4,8 +4,8 @@
     margin: 0;
 }
 
-.body {
-    background-color: white;
+body {
+    background-color: darkcyan;
 }
 
 .header {
@@ -41,6 +41,10 @@
     margin-left: 25px;
 }
 
+a {
+  color: white; 
+  text-decoration: none;
+}
 .Image1 {
     height: 600px;
     width: 100%;
@@ -54,15 +58,39 @@
     float: left;
     margin-left: 25px;
 }
-.body {
+
+.floatright {
+    float: right;
+    margin-left: 25px;
+}
+.main {
     width: 80%;
-    display: flex;
+    display: inline-block;
     margin-left: 30px;
     margin-right: 30px;
-
 }
 
 .aboutme {
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.mywork {
+    height: 300px;
+    padding: 50px;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.contactme {
     height: 300px;
     padding: 50px;
     margin-bottom: 20px;
@@ -76,6 +104,10 @@
     max-height: 200px;
 }
 
-.aboutme h1 {
+.contactme img {
+    max-height: 200px;
+}
+
+.aboutme, .mywork, .contactme h1 {
     margin-bottom: 20px;
 }
