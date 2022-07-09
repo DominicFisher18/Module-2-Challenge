@@ -80,6 +80,10 @@ a {
     text-align: center;
 }
 
+#mywork {
+    text-align: center;
+}
+
 .mywork {
     height: 300px;
     padding: 50px;
@@ -87,7 +91,6 @@ a {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     color: white;
-    text-align: center;
 }
 
 .contactme {
